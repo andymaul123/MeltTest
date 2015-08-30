@@ -1,0 +1,168 @@
+/* Reset CSS --------------------------------------------------------------- */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { margin:0; padding:0; border:0; outline:0; font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit; vertical-align:baseline; }
+:focus { outline:0; }
+a:active { outline:none; }
+body { line-height:1; }
+ol,ul { list-style:none; }
+table { border-collapse:separate; border-spacing:0; }
+caption,th,td { text-align:left; font-weight:normal; }
+blockquote:before,blockquote:after,q:before,q:after { content:""; }
+blockquote,q { quotes:"" ""; }
+a { text-decoration: none; }
+
+
+
+/* Global Styles ------------------------------------------------------------ */
+
+html,body {
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	color: #fff;
+}
+a {
+	color: #fff;
+}
+strong {
+	font-weight: 700;
+}
+
+
+/* Container ---------------------------------------------------------------- */
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #000
+}
+
+/* Structure Elements / Classes ------------------------------------------------------------------ */
+
+header {
+	padding: 0 0 3% 0;
+}
+.intro {
+	width: 100%;
+	height: auto;
+	background-color: #6699cc;
+	background-image: url('../image/hero.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	padding: 10px;
+}
+.logo {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+nav {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+nav ul {
+    padding: 3%;
+    list-style: none;
+    position: relative;
+    display: inline;
+    float: right;
+}
+nav ul li {
+	float: left;
+	padding: 0 30px 0 0;
+}
+nav ul li a:hover {
+	border-bottom-style: solid;
+	border-bottom-color: #3a3a3a;
+	border-bottom-width: 2px;
+}
+ nav ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.intro .column1 {
+	float: left;
+	width: 50%;
+	text-align: left;
+	font-size: 1.1em;
+}
+.intro .column1 h1, .intro .column1 p {
+	margin: 0 20% 3% 20%;
+}
+.intro .column1 h1 {
+	line-height: 125%;
+	font-size: 2.75em;
+
+}
+.intro .column1 p {
+	line-height: 200%;
+}
+.intro .column2 {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+.whatWeDo {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	text-align: center;
+}
+.callForSuperheroes {
+	width: 100%;
+	height: auto;
+	background-color: #666;
+	background-image: url('../image/careers.jpg');
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.video {
+	width: 100%;
+	height: auto;
+	background-color: #e9e9e9;
+	text-align: center;
+}
+.map {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	background-image: url('../image/map.jpg');
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.map .box {
+	background-color: hsla(0, 0%, 28%, 0.79);
+	width: 10%;
+	margin: 0 0 0 10%;
+}
+.contact {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	text-align: center;
+}
+footer {
+	width: 100%;
+	height: auto;
+	background-color: #6699cc;
+	text-align: center;
+}
+/* Other  --------------------------------------------------------------- */
+
+
+.clear {
+	clear: both;
+}
+
+.scaling {
+	max-width: 100%;
+	height: auto;
+}
+.button {
+	border: 2px solid #fff;
+	padding: 10px 50px 10px 50px;
+}
