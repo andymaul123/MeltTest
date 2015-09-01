@@ -316,7 +316,7 @@ footer {
 	font-size: 2em;
 }
 
-/* Responsive Breakpoint 1360px Width ------------------------------------------------- */
+/* Responsive Breakpoint 1360px ------------------------------------------------- */
 @media screen and (max-width:1360px) {
 header {
 	padding: 0 0 0 0;
@@ -342,7 +342,7 @@ header {
 	text-align: left;
 }
 }
-/* Responsive Breakpoint 1175px Width ------------------------------------------------- */
+/* Responsive Breakpoint 1175px ------------------------------------------------- */
 
 @media screen and (max-width:1175px) {
 .intro {
@@ -352,4 +352,55 @@ header {
 
 .map {
 	background-size: auto 100%;
+}
+
+/* Responsive Breakpoint 900px ------------------------------------------------- */
+
+@media screen and (max-width:900px) {
+
+header {
+	position: fixed;
+	top: 0px;
+	background-color: hsla(0, 0%, 13%, 0.85);
+	width: 100%;
+}
+.intro {
+	padding-top: 15%;
+}
+.intro .column1, .intro .column2 {
+	float: none;
+	width: 100%;
+	text-align: center;
+
+}
+.logo {
+	float: left;
+	width: 15%;
+	text-align: left;
+}
+.logo img {
+	padding: 6% 0 0 6%;
+}
+nav {
+	width: 85%;
+	text-align: center;
+	padding: 5% 0 0 0;
+}
+nav ul {
+    padding: 0;
+    float: none;
+}
+nav ul li {
+	float: none;
+	display: inline-block;
+}
+nav ul li a:hover {
+	border-bottom-color: #fff;
+}
+
+
+.map .box {
+	width: 40%;
+}
+
 }
