@@ -30,6 +30,7 @@ strong {
 }
 
 
+
 /* Container ---------------------------------------------------------------- */
 
 .container {
@@ -54,7 +55,7 @@ header {
 }
 .logo {
 	float: left;
-	width: 50%;
+	width: 20%;
 	text-align: left;
 }
 .logo img {
@@ -62,7 +63,7 @@ header {
 }
 nav {
 	float: right;
-	width: 50%;
+	width: 80%;
 	text-align: right;
 }
 nav ul {
@@ -88,7 +89,7 @@ nav ul li a:hover {
 }
 .intro .column1 {
 	float: left;
-	width: 50%;
+	width: 60%;
 	text-align: left;
 	font-size: 1.1em;
 }
@@ -105,7 +106,7 @@ nav ul li a:hover {
 }
 .intro .column2 {
 	float: left;
-	width: 50%;
+	width: 40%;
 	text-align: left;
 }
 
@@ -160,8 +161,9 @@ nav ul li a:hover {
 .map .box {
 	background-color: hsla(0, 0%, 28%, 0.79);
 	width: 12%;
+	height: auto;
 	margin: 0 0 0 10%;
-	padding: 2% 3% 3% 1%;
+	padding: 2% 3% 1% 1%;
 	text-align: left;
 }
 
@@ -314,3 +316,40 @@ footer {
 	font-size: 2em;
 }
 
+/* Responsive Breakpoint 1360px Width ------------------------------------------------- */
+@media screen and (max-width:1360px) {
+header {
+	padding: 0 0 0 0;
+}
+.intro .column1 {
+	width: 50%;
+
+}
+
+.intro .column2 {
+	width: 50%;
+}
+.callForSuperheroes {
+	background-size: auto 100%;
+}
+
+.map .box {
+	background-color: hsla(0, 0%, 28%, 0.79);
+	width: 20%;
+	height: auto;
+	margin: 0 0 0 10%;
+	padding: 2% 3% 1% 1%;
+	text-align: left;
+}
+}
+/* Responsive Breakpoint 1175px Width ------------------------------------------------- */
+
+@media screen and (max-width:1175px) {
+.intro {
+	background-size: auto 100%;
+
+}
+
+.map {
+	background-size: auto 100%;
+}
